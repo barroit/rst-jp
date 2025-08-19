@@ -1,0 +1,36 @@
+{
+   "name": "restructuredtext-jp",
+   "displayName": "reStructuredText Language Basics JP",
+   "description": "Provides syntax highlighting in reStructuredText files.",
+   "version": "0.0.1",
+   "publisher": "barroit",
+   "license": "MIT",
+   "engines": {
+      "vscode": "*"
+   },
+   "contributes": {
+      "languages": [
+         {
+            "id": "restructuredtext-jp",
+            "configuration": "./language-configuration.json",
+            "extensions": [
+               ".jp.rst"
+            ]
+         }
+      ],
+      "grammars": [
+         {
+            "language": "restructuredtext-jp",
+            "scopeName": "source.jp.rst",
+            "path": "./syntaxes/rst.tmLanguage.json"
+         }
+      ]
+   },
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:barroit/rst-jp.git"
+   },
+   "devDependencies": {
+      "@vscode/vsce": "^3.6.0"
+   }
+}
