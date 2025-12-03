@@ -1,6 +1,6 @@
 {
-	"name": "simple-rst",
-	"displayName": "reStructuredText Syntax highlighting",
+	"name": "rst-jp",
+	"displayName": "reStructuredText Syntax highlighting JP",
 	"description": "Syntax highlighting and document symbols for reStructuredText",
 	"version": "1.5.4",
 	"engines": {
@@ -28,20 +28,17 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "restructuredtext",
-				"aliases": [
-					"reStructuredText"
-				],
+				"id": "rst-jp",
 				"configuration": "./rst-configuration.json",
 				"extensions": [
-					".rst"
+					".jp.rst"
 				]
 			}
 		],
 		"grammars": [
 			{
-				"language": "restructuredtext",
-				"scopeName": "source.rst",
+				"language": "rst-jp",
+				"scopeName": "source.jp.rst",
 				"path": "./syntaxes/rst.tmLanguage.json"
 			}
 		]
@@ -57,7 +54,7 @@
 		"lint": "eslint src --ext ts,json",
 		"watch": "tsc -watch -p ./",
 		"test": "node ./scripts/validate_schema.js",
-		"test-grammar": "vscode-tmgrammar-test -c -s source.rst -g syntaxes/rst.tmLanguage.json -t \"syntaxes/**/*.rst\""
+		"test-grammar": "vscode-tmgrammar-test -c -s source.jp.rst -g syntaxes/rst.tmLanguage.json -t \"syntaxes/**/*.rst\""
 	},
 	"devDependencies": {
 		"@types/compare-versions": "^3.3.0",

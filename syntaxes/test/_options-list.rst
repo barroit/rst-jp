@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.rst" "options-list"
+// SYNTAX TEST "source.jp.rst" "options-list"
 // https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#option-lists
 
 

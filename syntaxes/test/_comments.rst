@@ -1,4 +1,4 @@
--- SYNTAX TEST "source.rst" "comments"
+-- SYNTAX TEST "source.jp.rst" "comments"
 
 .. This line is a comment
 -- <------ comment.block

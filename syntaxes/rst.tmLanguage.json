@@ -1,6 +1,6 @@
 {
 	"$schema": "../scripts/tmLanguage.schema.json",
-	"scopeName": "source.rst",
+	"scopeName": "source.jp.rst",
 	"patterns": [
 		{"include": "#body"}
 	],
